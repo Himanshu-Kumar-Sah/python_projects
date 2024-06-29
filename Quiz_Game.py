@@ -10,6 +10,9 @@ def questions():
         lines = file.readlines()
         file.close()
         #added a comment
+        #new line
+
+        #iiiii
         line = lines[A - 1]
         question =  ast.literal_eval(line.strip())
         print(f"QUESTION: {question[0]} ")

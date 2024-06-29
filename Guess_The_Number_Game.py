@@ -1,5 +1,5 @@
 import random
-
+#kkkk
 def guesseasy():
     chance = 5 
     A = random.randint(1,10)
