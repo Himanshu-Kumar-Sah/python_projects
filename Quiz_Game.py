@@ -9,6 +9,7 @@ def questions():
         file = open("C:/Users/91971/NEW VS Code/kbc_questions.txt","r")
         lines = file.readlines()
         file.close()
+        #added a comment
         line = lines[A - 1]
         question =  ast.literal_eval(line.strip())
         print(f"QUESTION: {question[0]} ")
