@@ -14,6 +14,7 @@ def guesseasy():
                 guesseasy()
             elif D == "M":
                 mainmenu()
+                #1122
         elif num > A:
             print("WRONG GUESS :( - Yours Number is Greater")
             chance = chance - 1
